@@ -51,7 +51,7 @@ export default function Signup() {
       {/* Logo */}
       <div
         onClick={() => navigate('/')}
-        className="flex items-center justify-start px-8 pt-4 cursor-pointer"
+        className="flex items-center justify-start px-8 pt-2 cursor-pointer"
       >
         <img
           src="/logo.jpg"
@@ -61,7 +61,7 @@ export default function Signup() {
       </div>
 
       {/* Content */}
-      <div className="flex-1 flex flex-col items-center justify-start pt-5">
+      <div className="flex-1 flex flex-col items-center justify-start pt-4">
         <div className="w-full max-w-md px-8">
           {/* Title */}
           <h1 className="text-3xl font-normal text-center mb-8">
